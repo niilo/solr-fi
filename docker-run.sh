@@ -1,0 +1,1 @@
+docker run -d -p 8983:8983 -v $PWD/fi-biblio:/fi-biblio niilo/solr-fi:6.4.1 solr-create -c fi-biblio -d /fi-biblio
