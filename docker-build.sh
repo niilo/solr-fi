@@ -1,0 +1,1 @@
+docker build -t niilo/solr-fi:6.4.1 .
