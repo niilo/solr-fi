@@ -1,6 +1,13 @@
 
 # SOLR-FI docker container with Voikko Finnish language library
 
+## Run SOLR-FI docker container
+
+Start solr with fi-biblio core listening on port 8983.
+```bash
+./docker-run.sh
+```
+
 ## Voikko natural language tool usage
 
 Start using Voikko with the following filter declaration in Solr schema configuration:
